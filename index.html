@@ -27,7 +27,7 @@
   <!-- Display the map and title with HTML division tags  -->
   <div id="map-title">
     Alessandro's Map
-    <!-- Add Universal Studios Orlando logo inside the map title -->
+
     <img src="https://upload.wikimedia.org/wikipedia/en/d/d0/Universal_Orlando_Resort_logo_2023.png" alt="Universal Studios Orlando Logo">
   </div>
 
@@ -35,8 +35,8 @@
 
   <iframe id="inlineFrameExample"
             title="Inline Frame Example"
-            width="200"
-            height="128"
+            width="400"
+            height="245"
             src="https://www.universalorlando.com/web/en/us">
   </iframe>
     
@@ -59,9 +59,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  /* Display a point marker with pop-up text */
 L.marker([28.4724, -81.4690]).addTo(map) // EDIT marker coordinates
-.bindPopup('<a href="https://www.universalorlando.com/web/en/us" target="_blank">Universal Studios Orlando</a>'); // EDIT pop-up text message with a clickable link
+.bindPopup('<a href="https://www.universalorlando.com/web/en/us" target="_blank">Universal Studios Orlando</a>'); // EDIT pop-up text message
 
        
   </script>
